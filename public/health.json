@@ -1,42 +1,48 @@
 [
     {
-      "name": "Product A",
-      "image": "https://unsplash.com/photos/hIgeoQjS_iE",
+      "id": "1",
+      "name": "Fruits",
+      "image": "https://i.ibb.co/xjKZG3y/fruits.jpg",
       "price": 39.99,
       "details": "Product A is a versatile and high-quality item suitable for various applications. It comes with advanced features and a sleek design.",
       "short_details": "Versatile & High-quality"
     },
-    {
-      "name": "Product B",
-      "image": "https://unsplash.com/photos/hIgeoQjS_iE",
+    { 
+      "id": "2",  
+      "name": "Sleap",
+      "image": "https://i.ibb.co/ypdVmYJ/sleaping.jpg",
       "price": 19.99,
       "details": "Product B offers an affordable solution without compromising on performance. It's a reliable choice for your needs.",
       "short_details": "Affordable & Reliable"
     },
     {
-      "name": "Product C",
-      "image": "https://unsplash.com/photos/hIgeoQjS_iE",
+      "id": "3",
+      "name": "Exercise",
+      "image": "https://i.ibb.co/bKpFDBP/exercise.jpg",
       "price": 49.99,
       "details": "Product C is a premium item with luxury features, top-notch build quality, and a modern design.",
       "short_details": "Premium Luxury"
     },
     {
-      "name": "Product D",
-      "image": "https://unsplash.com/photos/hIgeoQjS_iE",
+      "id": "4",
+      "name": "Medicine",
+      "image": "https://i.ibb.co/5hC3CBn/medicine.jpg",
       "price": 9.99,
       "details": "Product D is a budget-friendly option that offers excellent value for the price. It's perfect for those on a tight budget.",
       "short_details": "Budget-friendly"
     },
     {
-      "name": "Product E",
-      "image": "https://unsplash.com/photos/hIgeoQjS_iE",
+      "id": "5",
+      "name": "Smile",
+      "image": "https://i.ibb.co/sVVxYM9/smile.jpg",
       "price": 59.99,
       "details": "Product E is designed for professionals, providing top-notch performance and features required for demanding tasks.",
       "short_details": "Professional-grade"
     },
     {
-      "name": "Product F",
-      "image": "https://unsplash.com/photos/hIgeoQjS_iE",
+      "id": "6",
+      "name": "Health Checkup",
+      "image": "https://i.ibb.co/RbW4Tg7/health-chackup.jpg",
       "price": 29.99,
       "details": "Product F is a compact and versatile solution for your everyday needs. It's easy to use and stylish.",
       "short_details": "Compact & Stylish"

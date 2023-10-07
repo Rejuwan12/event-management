@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import google from "../../../public/google.png"
 
 const Login = () => {
   return (
-    <div className="hero mt-40">
+    <div className="hero mt-[100px]">
       <div className="hero-content flex-col ">
         <div className="text-center">
           <h1 className="text-3xl font-bold">Login Now!</h1>
@@ -37,10 +38,15 @@ const Login = () => {
                 </a>
               </label>
             </div>
-            <div className="form-control mt-6">
-              <button className="btn btn-primary">Login
+            <div className="form-control">
+              <button className="btn btn-info">Login
               </button> 
-              <p className="text-center mt-2">Don't have an account ? <Link className="text-teal-700" to="/register">Sign Up</Link></p>
+              <p className="text-center mt-2 mb-2">Don't have an account ? <Link className="text-teal-700" to="/register">Sign Up</Link></p>
+               <div>
+                <hr /> 
+                <p className="text-center mt-2">Login With Google</p>
+                <img className="w-[50px] ml-[100px] " src={google} alt="" />
+               </div>
             </div>
           </form>
          
