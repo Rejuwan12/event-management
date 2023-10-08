@@ -5,6 +5,8 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import Blog from "../pages/Blog/Blog";
 import About from "../pages/About/About";
+import SingleCard from "../pages/SingleCardShow/SingleCard";
+import PrivateRoute from "../PriveteRoute/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -26,11 +28,16 @@ const router = createBrowserRouter([
         },
         {
           path:'/blog',
-          element: <Blog/>
+          element: <PrivateRoute><Blog/></PrivateRoute>
         },
         {
           path:'/about',
           element:<About/>
+        },
+        {
+        path: '/cards/:id',
+        element: <PrivateRoute><SingleCard/></PrivateRoute>,
+        loader: () => fetch('/health.json')
         }
       ]
     },
