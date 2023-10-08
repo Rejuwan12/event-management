@@ -5,7 +5,14 @@
       "image": "https://i.ibb.co/xjKZG3y/fruits.jpg",
       "price": 39.99,
       "details": "Product A is a versatile and high-quality item suitable for various applications. It comes with advanced features and a sleek design.",
-      "short_details": "Versatile & High-quality"
+      "short_details": "Versatile & High-quality",
+      "doctor_img": "https://i.ibb.co/n08y7zR/team-2-jpg.webp",
+      "doctor_name": "Dr. Saidullah Khan",
+      "doctor_jobs": "Plastic Surgeon",
+      "doctor_icons": "https://i.ibb.co/ZTMJzgL/ss-2-removebg-preview.png",
+      "offer_title":"Advanced equipment",
+      "offer_details": "Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis."
+
     },
     { 
       "id": "2",  
@@ -13,7 +20,14 @@
       "image": "https://i.ibb.co/ypdVmYJ/sleaping.jpg",
       "price": 19.99,
       "details": "Product B offers an affordable solution without compromising on performance. It's a reliable choice for your needs.",
-      "short_details": "Affordable & Reliable"
+      "short_details": "Affordable & Reliable",
+      "doctor_img": "https://i.ibb.co/KxWc9Tm/team-3-jpg.webp",
+      "doctor_name": "Dr. Hafizullah",
+      "doctor_jobs": "Medicine Physician",
+      "doctor_icons": "https://i.ibb.co/ZTMJzgL/ss-2-removebg-preview.png",
+      "offer_title":"Certified services",
+      "offer_details": "Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis."
+      
     },
     {
       "id": "3",
@@ -21,7 +35,13 @@
       "image": "https://i.ibb.co/bKpFDBP/exercise.jpg",
       "price": 49.99,
       "details": "Product C is a premium item with luxury features, top-notch build quality, and a modern design.",
-      "short_details": "Premium Luxury"
+      "short_details": "Premium Luxury",
+      "doctor_img": "https://i.ibb.co/K2y6Cbv/crop-1.jpg",
+      "doctor_name": "Dr. Moniruddin",
+      "doctor_jobs": "Gastroenterologists",
+      "doctor_icons": "https://i.ibb.co/ZTMJzgL/ss-2-removebg-preview.png",
+      "offer_title":"Emergency care",
+      "offer_details": "Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis."
     },
     {
       "id": "4",
@@ -30,6 +50,7 @@
       "price": 9.99,
       "details": "Product D is a budget-friendly option that offers excellent value for the price. It's perfect for those on a tight budget.",
       "short_details": "Budget-friendly"
+      
     },
     {
       "id": "5",
@@ -38,6 +59,7 @@
       "price": 59.99,
       "details": "Product E is designed for professionals, providing top-notch performance and features required for demanding tasks.",
       "short_details": "Professional-grade"
+  
     },
     {
       "id": "6",
@@ -46,6 +68,7 @@
       "price": 29.99,
       "details": "Product F is a compact and versatile solution for your everyday needs. It's easy to use and stylish.",
       "short_details": "Compact & Stylish"
+    
     }
   ]
   

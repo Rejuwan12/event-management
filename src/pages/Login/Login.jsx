@@ -20,19 +20,25 @@ const Login = () => {
     .then(result => {
       console.log(result.user)
       e.target.reset();
+      Swal.fire(
+      'login Successfully!',
+     'Congratulations!',
+     'success')
       navigate('/');
     })
     .catch(error => {console.error(error)
+      Swal.fire(
+        'Mistake!',
+       'Please Type a Right Email & Password!',
+       'question')
+
     })
   }
   const handleGoogle = () => {
     signInGoogle()
     .then(result => {
       console.log(result.user);
-       Swal.fire(
-       'The Internet?',
-       'That thing is still around?',
-       'question')
+     
       navigate('/');
     })
     .catch(error => {

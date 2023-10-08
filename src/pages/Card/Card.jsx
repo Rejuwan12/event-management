@@ -8,6 +8,7 @@ const Card = ({ data }) => {
             {
                 data?.map((card) => <Cards key={card.id} card={card}></Cards>)
             }
+            
         </div>
     );
 };

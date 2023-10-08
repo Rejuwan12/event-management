@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import {
-    GoogleAuthProvider,
+  GoogleAuthProvider,
   createUserWithEmailAndPassword,
   onAuthStateChanged,
   signInWithEmailAndPassword,
@@ -15,51 +15,47 @@ const googleProvider = new GoogleAuthProvider();
 
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-  const [loading , setLoading] = useState(true)
+  const [loading, setLoading] = useState(true);
 
   const createUser = (email, password) => {
-    setLoading(true)
+    setLoading(true);
     return createUserWithEmailAndPassword(auth, email, password);
   };
   const logInUser = (email, password) => {
-    setLoading(true)
+    setLoading(true);
     return signInWithEmailAndPassword(auth, email, password);
   };
 
   const signInGoogle = () => {
-    setLoading(true)
-    return signInWithPopup(auth, googleProvider)
-  }
-  const logOut = () =>{
-    setLoading(true)
-     return signOut(auth);
-  }
-  const AuthInfo = { user,loading, createUser, logInUser, logOut, signInGoogle };
+    setLoading(true);
+    return signInWithPopup(auth, googleProvider);
+  };
+  const logOut = () => {
+    setLoading(true);
+    return signOut(auth);
+  };
+  const AuthInfo = {
+    user,
+    loading,
+    createUser,
+    logInUser,
+    logOut,
+    signInGoogle,
+  };
 
   useEffect(() => {
-  const unSubscribe =   onAuthStateChanged(auth,  currentUser => {
-        setUser(currentUser)
-        setLoading(false)
-      console.log('i loved him', currentUser);
+    const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+      setLoading(false);
+      console.log(currentUser);
     });
     return () => {
-        unSubscribe();
-    } 
-  },[])
-
-
-
-
-
-
-
-
+      unSubscribe();
+    };
+  }, []);
 
   return (
-    <AuthContext.Provider 
-    value={AuthInfo}>
-        {children}
-    </AuthContext.Provider>
+    <AuthContext.Provider value={AuthInfo}>{children}</AuthContext.Provider>
   );
 };
 
