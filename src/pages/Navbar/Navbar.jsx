@@ -35,7 +35,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100  font-medium">
+    <div className="navbar bg-[#5595a79c] rounded-t-lg font-medium">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost  lg:hidden">

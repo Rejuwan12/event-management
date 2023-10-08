@@ -11,7 +11,7 @@
       "doctor_jobs": "Plastic Surgeon",
       "doctor_icons": "https://i.ibb.co/ZTMJzgL/ss-2-removebg-preview.png",
       "offer_title":"Advanced equipment",
-      "offer_details": "Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis."
+      "offer_details": "Robotic surgical systems,dvanced diagnostic equipment like PCR machines for DNA testing etc "
 
     },
     { 
@@ -26,7 +26,7 @@
       "doctor_jobs": "Medicine Physician",
       "doctor_icons": "https://i.ibb.co/ZTMJzgL/ss-2-removebg-preview.png",
       "offer_title":"Certified services",
-      "offer_details": "Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis."
+      "offer_details": "These certifications ensure that they meet certain standards and qualifications to provide healthcare services."
       
     },
     {
@@ -41,7 +41,7 @@
       "doctor_jobs": "Gastroenterologists",
       "doctor_icons": "https://i.ibb.co/ZTMJzgL/ss-2-removebg-preview.png",
       "offer_title":"Emergency care",
-      "offer_details": "Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis."
+      "offer_details": "The emergency department, patients are often assessed and prioritized based on the severity of their condition."
     },
     {
       "id": "4",

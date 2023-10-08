@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div>
               <div className="relative ">
-              <img className="w-full h-[500px] rounded-lg" src={img} alt="" /> 
+              <img className="w-full h-[500px] rounded-b-lg" src={img} alt="" /> 
               </div>
               <div className="absolute lg:top-[340px] top=[-10px] p-3 ml-4">
                 <h2 className="lg:text-6xl  text-sm mt-[-140px] text-[#194956b5] text-center font-bold ">

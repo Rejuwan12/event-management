@@ -5,7 +5,7 @@ const Cards = ({ card }) => {
   const { id, name, image, price, short_details } = card;
   return (
     <div>
-      <div className="card card-compact h=[280px] bg-base-100 shadow">
+      <div className="card card-compact h=[280px] bg-[#5595a79c] ">
         <figure>
           <img className="w-full h-[200px]" src={image} alt="Shoes" />
         </figure>
@@ -17,7 +17,7 @@ const Cards = ({ card }) => {
             <p>Price: $ {price}</p>
      
            <Link to={`/cards/${id}`}>
-              <button className="btn btn-primary">Details</button>
+              <button className="btn btn-primary border-none  bg-[#2c65759c]">Details</button>
             </Link>
          
           </div>
