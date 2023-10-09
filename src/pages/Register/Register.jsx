@@ -15,6 +15,22 @@ const Register = () => {
     const password = e.target.password.value 
     console.log(name, email, password);
 
+    if(password.length < 6){
+    Swal.fire(
+      'Oppss!',
+     'Password Should be 6 character!',
+     'question')
+     return;
+    }
+    else if(!/A-Z/.test(password)){
+      Swal.fire(
+        'Oppss!',
+       ' your Password Should have  at last one upper case character ',
+       'question')
+       return;
+    }
+   
+
     createUser(email, password)
     .then(result => {
       console.log(result.user);

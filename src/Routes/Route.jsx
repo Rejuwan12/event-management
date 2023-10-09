@@ -7,11 +7,13 @@ import Blog from "../pages/Blog/Blog";
 import About from "../pages/About/About";
 import SingleCard from "../pages/SingleCardShow/SingleCard";
 import PrivateRoute from "../PriveteRoute/PrivateRoute";
+import ErrorPage from "../components/Error/ErrorPage";
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <MainLayout/>,
+      errorElement: <ErrorPage/> ,
       children:[
         {
             path:'/',
@@ -32,7 +34,7 @@ const router = createBrowserRouter([
         },
         {
           path:'/about',
-          element:<About/>
+          element: <PrivateRoute><About/></PrivateRoute>
         },
         {
         path: '/cards/:id',

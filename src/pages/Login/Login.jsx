@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import google from "../../../public/google.png"
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
@@ -8,6 +8,7 @@ const Login = () => {
 
   const {logInUser, signInGoogle} = useContext(AuthContext)
   const navigate = useNavigate();
+  const location = useLocation()
 
   const handleLogin = e => {
     e.preventDefault()
@@ -24,7 +25,7 @@ const Login = () => {
       'login Successfully!',
      'Congratulations!',
      'success')
-      navigate('/');
+      navigate( location?.state ? location.state : '/');
     })
     .catch(error => {console.error(error)
       Swal.fire(

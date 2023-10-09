@@ -1,11 +1,11 @@
 [
     {
       "id": "1",
-      "name": "Fruits",
-      "image": "https://i.ibb.co/xjKZG3y/fruits.jpg",
+      "name": "CBC(Complete Blood Count)",
+      "image": "https://i.ibb.co/j6dNLJ8/cbc.jpg",
       "price": 39.99,
-      "details": "Product A is a versatile and high-quality item suitable for various applications. It comes with advanced features and a sleek design.",
-      "short_details": "Versatile & High-quality",
+      "details": " A complete blood count, or CBC, is a blood test that measures many different parts and features of your blood, including: Red blood cells, which carry oxygen from your lungs to the rest of your body. White blood cells, which fight infections and other diseases. A complete blood count (CBC) is a blood test. It's used to look at overall health and find a wide range of conditions, including anemia, infection and leukemia. Red blood cells, which carry oxygen White blood cells, which fight infection Hemoglobin, the oxygen-carrying protein in red blood cells Hematocrit, the amount of red blood cells in the blood Platelets, which help blood to clot A complete blood count can show unusual increases or decreases in cell counts. Those changes might point to a medical condition that calls for more testing. ",
+      "short_details": "A complete blood count, or CBC, is a blood test that measures many different parts and features of your blood, including: Red blood cells, which carry oxygen from your lungs to the rest of your body. White blood cells, which fight infections and other diseases.",
       "doctor_img": "https://i.ibb.co/n08y7zR/team-2-jpg.webp",
       "doctor_name": "Dr. Saidullah Khan",
       "doctor_jobs": "Plastic Surgeon",
@@ -16,11 +16,11 @@
     },
     { 
       "id": "2",  
-      "name": "Sleap",
-      "image": "https://i.ibb.co/ypdVmYJ/sleaping.jpg",
+      "name": "Urine Test",
+      "image": "https://i.ibb.co/Jdf6WvD/urine-test.jpg",
       "price": 19.99,
-      "details": "Product B offers an affordable solution without compromising on performance. It's a reliable choice for your needs.",
-      "short_details": "Affordable & Reliable",
+      "details": "A urine test, also known as a urinalysis, is a common medical test that involves analyzing a person's urine to evaluate their overall health and detect various medical conditions. Urine contains waste products and can provide valuable information about the body's functions and potential health issues. Here are some key aspects of a urine test Routine Checkup: As part of a regular physical examination. o diagnose or monitor conditions such as diabetes, kidney disease, urinary tract infections, and liver disease. Drug Screening: To detect the presence of drugs or medications in the system.Pregnancy: To confirm pregnancy through a urine-based pregnancy test Monitoring Treatment: To assess the effectiveness of treatment for certain medical conditions If you have specific questions or concerns about a urine test, it's best to consult with",
+      "short_details": "A urine test, also known as a urinalysis, is a common medical test that involves analyzing a person's urine to evaluate their overall health and detect various medical conditions. Urine contains waste products and can provide valuable information about the body's",
       "doctor_img": "https://i.ibb.co/KxWc9Tm/team-3-jpg.webp",
       "doctor_name": "Dr. Hafizullah",
       "doctor_jobs": "Medicine Physician",
@@ -31,11 +31,11 @@
     },
     {
       "id": "3",
-      "name": "Exercise",
-      "image": "https://i.ibb.co/bKpFDBP/exercise.jpg",
+      "name": "RBS (Random Blood Sugar)",
+      "image": "https://i.ibb.co/MB90Y6P/rbs.jpg",
       "price": 49.99,
-      "details": "Product C is a premium item with luxury features, top-notch build quality, and a modern design.",
-      "short_details": "Premium Luxury",
+      "details": "This measures your blood sugar at the time you're tested. You can take this test at any time and don't need to fast (not eat) first. A blood sugar level of 200 mg/dL or higher indicates you have diabetes a random glucose test may help a doctor decide if additional testing. Random glucose testing measures a person's blood glucose levels at any given point in the day. Blood glucose is also known as blood sugar. Many blood tests for diabetes involve either fasting or continuous monitoring, but this test does not.It is useful for people who need a speedy diagnosis, such as those with type 1 diabetes who require urgent supplementary insulin. How To TEst Work? Glucose is a form of sugar. It is the body's primary energy source and fuels every cell — including those in the brain, heart, and muscles. Glucose mainly comes from food and drink people consume. The body also breaks down stored forms of the carbohydrate glycogen into glucose.The body works continuously to keep the amount of blood glucose at optimum levels. It produces a hormone called insulin to achieve this, which helps glucose get into the cells that need it for energy.A person with type 1 diabetes does not produce insulin as their body no longer makes insulin.",
+      "short_details": "This measures your blood sugar at the time you're tested. You can take this test at any time and don't need to fast (not eat) first. A blood sugar level of 200 mg/dL or higher indicates you have diabetes a random glucose test may help a doctor decide if additional testing.",
       "doctor_img": "https://i.ibb.co/K2y6Cbv/crop-1.jpg",
       "doctor_name": "Dr. Moniruddin",
       "doctor_jobs": "Gastroenterologists",
@@ -45,20 +45,20 @@
     },
     {
       "id": "4",
-      "name": "Medicine",
+      "name": "Medicine Available",
       "image": "https://i.ibb.co/5hC3CBn/medicine.jpg",
       "price": 9.99,
-      "details": "Product D is a budget-friendly option that offers excellent value for the price. It's perfect for those on a tight budget.",
-      "short_details": "Budget-friendly"
+      "details": "Medicine the practice concerned with the maintenance of health and the prevention, alleviation, or cure of disease.Health, which is a state of complete physical, mental and social well-being, and not merely the absence of disease or infirmity.is a most important world-wide social goal whose realization requires the action of many other social and economic sectors in addition to the health sector.The World Health Organization at its 1978 international conference held in the Soviet Union produced the Alma-Ata Health Declaration, which was designed to serve governments as a basis for planning health care that would reach people at all levels of society. The declaration reaffirmed that In its widest form, the practice of medicine—that is to say, the promotion and care of health—is concerned with this ideal. It is generally the goal of most countries to have their health services organized in such a way to ensure that individuals, families, and communities obtain the maximum benefit from current knowledge and technology available for the promotion, maintenance, and restoration of health. In order to play their part in this process, governments and other agencies are faced with numerous tasks,health education; and, as mentioned above, the collection and analysis of information.",
+      "short_details": " Medicine the practice concerned with the maintenance of health and the prevention, alleviation, or cure of disease.Health, which is a state of complete physical, mental and social well-being, and not merely the absence of disease or infirmity, "
       
     },
     {
       "id": "5",
-      "name": "Smile",
-      "image": "https://i.ibb.co/sVVxYM9/smile.jpg",
+      "name": "TB(Tuberculosis) Test",
+      "image": "https://i.ibb.co/PCM01Sm/abbaaasdds.jpg",
       "price": 59.99,
-      "details": "Product E is designed for professionals, providing top-notch performance and features required for demanding tasks.",
-      "short_details": "Professional-grade"
+      "details": " Tuberculosis (TB) is an infectious disease that most often affects the lungs and is caused by a type of bacteria. It spreads through the air when infected people cough, sneeze or spit. Tuberculosis is preventable and curable.mental and social well-being TB is primarily spread through the inhalation of respiratory droplets containing the bacteria. Close and prolonged contact with an infectious person is usually necessary for transmission.ymptoms: Common symptoms of TB include a persistent cough that lasts for three weeks or more, chest pain, coughing up blood or sputum, fatigue, weight loss, night sweats, and fever. However, not everyone infected with TB will develop symptoms; this is known as latent TB.Latent TB vs. Active TB: Latent TB infection means that the bacteria are present in the body but not causing symptoms or illness. Active TB disease occurs when the bacteria become active and multiply, causing symptoms and potentially spreading to others.Diagnosis: TB can be diagnosed through various tests, including chest X-rays, sputum culture, and the tuberculin skin test (TST) or interferon-gamma release assay (IGRA) blood test.you have TB or have been in contact with someone who has the disease, as early diagnosis and treatment are crucial for both individual health and preventing the spread of",
+      "short_details": " Tuberculosis (TB) is an infectious disease that most often affects the lungs and is caused by a type of bacteria. It spreads through the air when infected people cough, sneeze or spit. Tuberculosis is preventable and curable.mental and social well-being"
   
     },
     {
@@ -66,8 +66,8 @@
       "name": "Health Checkup",
       "image": "https://i.ibb.co/RbW4Tg7/health-chackup.jpg",
       "price": 29.99,
-      "details": "Product F is a compact and versatile solution for your everyday needs. It's easy to use and stylish.",
-      "short_details": "Compact & Stylish"
+      "details": "A health checkup, also known as a medical checkup or physical examination, is a routine visit to a healthcare provider to assess your overall health and detect any potential health issues early on. Health checkups can vary in scope and frequency depending on your age, gender, medical history, and risk factors. Here are some key aspects of a typical health checkup Medical History: Your healthcare provider will begin by asking about your medical history, including any existing health conditions, medications you are taking, allergies, and family history of diseases.Physical Examination: A thorough physical examination may include measurements of your blood pressure, heart rate, respiratory rate, height, weight, and body mass index (BMI). The doctor will also examine various parts of your body, including your eyes, ears, nose, throat, skin, and abdomen.Laboratory Tests: Depending on your age and risk factors, your doctor may recommend various blood tests, urine tests, or other laboratory tests to check for conditions such as diabetes, high cholesterol, liver function, kidney function, and more.health checkups are an essential part of preventive healthcare, as they can help detect and address health issues before they become more serious or difficult to manage.",
+      "short_details": " health checkup, also known as a medical checkup or physical examination, is a routine visit to a healthcare provider to assess your overall health and detect any potential health issues early on. Health checkups can vary in scope and frequency depending on your age, "
     
     }
   ]

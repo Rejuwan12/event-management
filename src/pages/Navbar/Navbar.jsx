@@ -61,7 +61,7 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Health Fairs</a>
+        <Link to="/"  className="btn btn-ghost normal-case text-2xl font-bold">Health Fairs</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
@@ -71,7 +71,7 @@ const Navbar = () => {
           <>
             
             <div className="flex items-center gap-3">
-            <img className="rounded-full w-[44px]" src={user.photoURL} alt="" />
+            <img className="rounded-full w-[40px]" src={user.photoURL} alt="" />
             <span className="mr-2">{user.displayName}</span>
             </div>
             <button onClick={handleLogOut} className="btn btn-sm">
