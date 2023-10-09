@@ -8,6 +8,7 @@ import About from "../pages/About/About";
 import SingleCard from "../pages/SingleCardShow/SingleCard";
 import PrivateRoute from "../PriveteRoute/PrivateRoute";
 import ErrorPage from "../components/Error/ErrorPage";
+import Contact from "../pages/Contact/Contact";
 
 const router = createBrowserRouter([
     {
@@ -34,7 +35,11 @@ const router = createBrowserRouter([
         },
         {
           path:'/about',
-          element: <PrivateRoute><About/></PrivateRoute>
+          element: <About/>
+        },
+        {
+          path: '/contact',
+          element:<PrivateRoute><Contact/></PrivateRoute>
         },
         {
         path: '/cards/:id',

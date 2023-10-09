@@ -1,49 +1,45 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 
 const Register = () => {
+  const { createUser } = useContext(AuthContext);
+  const navigate = useNavigate();
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
 
-  const {createUser}= useContext(AuthContext);
-  const navigate = useNavigate()
-
-  const handleSignUp = e => {
-    e.preventDefault()
-    const name = e.target.name.value 
-    const email = e.target.email.value 
-    const password = e.target.password.value 
+  const handleSignUp = (e) => {
+    e.preventDefault();
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const password = e.target.password.value;
     console.log(name, email, password);
 
-    if(password.length < 6){
-    Swal.fire(
-      'Oppss!',
-     'Password Should be 6 character!',
-     'question')
-     return;
+    setSuccess("");
+    setError("");
+
+    if (password.length < 6) {
+      Swal.fire("Oppss!", "Password Should be 6 character!", "question");
+      return;
+    } else if (!/[A-Z]/.test(password)) {
+      Swal.fire("Password do not have a capital letter");
+      return;
+    } else if (!/[!@#$%^&*]/.test(password)) {
+      Swal.fire("Password do not have a special character");
+      return;
     }
-    else if(!/A-Z/.test(password)){
-      Swal.fire(
-        'Oppss!',
-       ' your Password Should have  at last one upper case character ',
-       'question')
-       return;
-    }
-   
 
     createUser(email, password)
-    .then(result => {
-      console.log(result.user);
-      navigate('/login')
-      Swal.fire(
-        'Register Successfully!',
-       'Please Login!',
-       'success')
-    })
-    .catch(error => {
-      console.error(error);
-    })
-  }
+      .then((result) => {
+        console.log(result.user);
+        navigate("/login");
+        Swal.fire("Register Successfully!", "Please Login!", "success");
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
   return (
     <div className="hero ">
       <div className="hero-content flex-col ">

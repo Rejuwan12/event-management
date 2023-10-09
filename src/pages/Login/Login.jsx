@@ -15,8 +15,17 @@ const Login = () => {
     const email = e.target.email.value 
     const password = e.target.password.value 
     
-    console.log(email, password);
-
+    if (password.length < 6) {
+      Swal.fire("Oppss!", "Password Should be 6 character!", "question");
+      return;
+    } else if (!/[A-Z]/.test(password)) {
+      Swal.fire("Password do not have a capital letter");
+      return;
+    } else if (!/[!@#$%^&*]/.test(password)) {
+      Swal.fire("Password do not have a special character");
+      return;
+    }
+  
     logInUser(email, password)
     .then(result => {
       console.log(result.user)
@@ -39,7 +48,6 @@ const Login = () => {
     signInGoogle()
     .then(result => {
       console.log(result.user);
-     
       navigate('/');
     })
     .catch(error => {
