@@ -3,7 +3,7 @@
 const Blog = () => {
     return (
         <div>
-           <h2>Blog Page</h2> 
+           <h2 className="text-[100px] text-center p-6 ">We will Update this page Very Soon. thank you</h2> 
         </div>
     );
 };

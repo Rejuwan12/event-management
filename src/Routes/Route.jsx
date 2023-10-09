@@ -9,6 +9,7 @@ import SingleCard from "../pages/SingleCardShow/SingleCard";
 import PrivateRoute from "../PriveteRoute/PrivateRoute";
 import ErrorPage from "../components/Error/ErrorPage";
 import Contact from "../pages/Contact/Contact";
+import News from "../pages/News/News";
 
 const router = createBrowserRouter([
     {
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
         {
           path:'/about',
           element: <About/>
+        },
+        {
+          path: '/news',
+          element: <PrivateRoute><News/></PrivateRoute>
+          
         },
         {
           path: '/contact',

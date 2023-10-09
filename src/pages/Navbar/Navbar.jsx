@@ -31,6 +31,11 @@ const Navbar = () => {
           <a>Contact Us</a>
         </NavLink>
       </li>
+      <li>
+        <NavLink to="/news">
+          <a>News</a>
+        </NavLink>
+      </li>
     </>
   );
 
